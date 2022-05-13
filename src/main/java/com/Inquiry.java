@@ -17,7 +17,7 @@ public class Inquiry { //A common method to connect to the DB
 
 				//Provide the correct details: DBServer/DBName, username, password 
 				//DB Connection
-				con = DriverManager.getConnection("jdbc:mysql://127.0.0.1:4306/inquiry_db", "root", ""); 
+				con = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/electrogrid", "root", ""); 
 		} 
 		catch (Exception e) {
 			e.printStackTrace();
